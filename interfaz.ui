@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>740</width>
+    <height>701</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>1011</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0,0,0, 255), stop:0.55 rgba(85, 255, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));
+</string>
+    </property>
+    <property name="currentIndex">
+     <number>5</number>
+    </property>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>login</string>
+     </attribute>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>10</y>
+        <width>531</width>
+        <height>561</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(85, 255, 255));</string>
+      </property>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>410</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+background-color: rgba(0, 20, 80, 1);
+font: 75 20pt &quot;Rockwell&quot;;
+border-radus: 50%;
+QPushButton #pushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+color:rgba(255,255,255,210);
+border-radus:5px;
+}
+
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>L o g In</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>290</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Contraseña</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>200</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Nombre empleado</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>60</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Inicio de sesion</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>home</string>
+     </attribute>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>530</y>
+        <width>251</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+      </property>
+      <property name="text">
+       <string>Inicio de sesion</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>721</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(85, 255, 255));</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>510</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+background-color: rgba(0, 20, 80, 1);
+font: 75 20pt &quot;Rockwell&quot;;
+border-radus: 50%;
+QPushButton #pushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+color:rgba(255,255,255,210);
+border-radus:5px;
+}
+
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>AGREGAR</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_7">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>210</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Nombre</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_8">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>140</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>codigo</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>301</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Agregar cliente</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_9">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>280</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Direccion</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_10">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>340</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Telefono</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_11">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>410</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Correo</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_11">
+     <attribute name="title">
+      <string>addemployee</string>
+     </attribute>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>721</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(85, 255, 255));</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>550</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+background-color: rgba(0, 20, 80, 1);
+font: 75 20pt &quot;Rockwell&quot;;
+border-radus: 50%;
+QPushButton #pushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+color:rgba(255,255,255,210);
+border-radus:5px;
+}
+
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>AGREGAR</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_12">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>210</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Inicio</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_13">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>140</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>codigo</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>301</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Agregar proyecto</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_14">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>280</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Final</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_15">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>340</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Costo</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_16">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>410</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>CodigoCliente</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_20">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>470</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Tipo Panel</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_14">
+     <attribute name="title">
+      <string>editemployee</string>
+     </attribute>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>731</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(85, 255, 255));</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>510</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+background-color: rgba(0, 20, 80, 1);
+font: 75 20pt &quot;Rockwell&quot;;
+border-radus: 50%;
+QPushButton #pushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+color:rgba(255,255,255,210);
+border-radus:5px;
+}
+
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>AGREGAR</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_17">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>210</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>proveedor</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_18">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>140</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Tipo Panel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>301</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Agregar Panel</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_19">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>280</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>Costo</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_21">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>350</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>ID Panel</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_17">
+     <attribute name="title">
+      <string>cliente</string>
+     </attribute>
+     <widget class="QWidget" name="widget_5" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>731</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(85, 255, 255));</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>310</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+background-color: rgba(0, 20, 80, 1);
+font: 75 20pt &quot;Rockwell&quot;;
+border-radus: 50%;
+QPushButton #pushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+color:rgba(255,255,255,210);
+border-radus:5px;
+}
+
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_22">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>140</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>ID cliente</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>301</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Eliminar Cliente</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_20">
+     <attribute name="title">
+      <string>pedido</string>
+     </attribute>
+     <widget class="QWidget" name="widget_6" native="true">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>731</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(85, 255, 255));</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>310</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+background-color: rgba(0, 20, 80, 1);
+font: 75 20pt &quot;Rockwell&quot;;
+border-radus: 50%;
+QPushButton #pushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+color:rgba(255,255,255,210);
+border-radus:5px;
+}
+
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_23">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>140</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>ID Panel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>301</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Eliminar Panel</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_22">
+     <attribute name="title">
+      <string>proveedores</string>
+     </attribute>
+     <widget class="QWidget" name="widget_7" native="true">
+      <property name="geometry">
+       <rect>
+        <x>-20</x>
+        <y>0</y>
+        <width>731</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(85, 255, 255));</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>540</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+background-color: rgba(0, 20, 80, 1);
+font: 75 20pt &quot;Rockwell&quot;;
+border-radus: 50%;
+QPushButton #pushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+color:rgba(255,255,255,210);
+border-radus:5px;
+}
+
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>AGREGAR</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_24">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>210</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>inicio</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_25">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>140</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>ID</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>301</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Agregar Proyecto</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_26">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>280</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>final</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_27">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>350</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>costo</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_28">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>410</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>idCliente</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_29">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>470</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>idPanel</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>inventario</string>
+     </attribute>
+     <widget class="QWidget" name="widget_8" native="true">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>731</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(85, 255, 255);
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 255), stop:1 rgba(85, 255, 255));</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>310</y>
+         <width>241</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+background-color: rgba(0, 20, 80, 1);
+font: 75 20pt &quot;Rockwell&quot;;
+border-radus: 50%;
+QPushButton #pushButton {
+background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 98, 112, 226));
+color:rgba(255,255,255,210);
+border-radus:5px;
+}
+
+
+
+</string>
+       </property>
+       <property name="text">
+        <string>Eliminar</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_30">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>140</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(0, 0, 0, 0);
+font: italic 10pt &quot;MS Sans Serif&quot;;
+border:none;
+border-bottom:2px solid #ffffff;
+color:rgba(255,255,255,230);
+padding-bottom:7px;</string>
+       </property>
+       <property name="text">
+        <string>ID Proyecto</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>50</y>
+         <width>301</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgba(255,255,255,210);
+font: 75 20pt &quot;Rockwell&quot;;
+
+</string>
+       </property>
+       <property name="text">
+        <string>Eliminar Proyecto</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>reportes</string>
+     </attribute>
+     <widget class="QLabel" name="label_190">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>30</y>
+        <width>271</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 255, 255);
+font: 75 24pt &quot;Cousine&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Base de Datos </string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>120</y>
+        <width>741</width>
+        <height>301</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 75 11pt &quot;Cousine&quot;;
+
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>740</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuagregar_panel">
+    <property name="title">
+     <string>CLIENTE</string>
+    </property>
+    <addaction name="actionAGREGAR_3"/>
+    <addaction name="actionELIMINAR_2"/>
+    <addaction name="actionVER_CLIENTES"/>
+   </widget>
+   <widget class="QMenu" name="menuPROYECTO">
+    <property name="title">
+     <string>PROYECTO</string>
+    </property>
+    <addaction name="actionAGREGAR_2"/>
+    <addaction name="actionCANCELAR"/>
+    <addaction name="actionVER_PROYECTOS"/>
+   </widget>
+   <widget class="QMenu" name="menuPANEL">
+    <property name="title">
+     <string>PANEL</string>
+    </property>
+    <addaction name="actionAGREGAR"/>
+    <addaction name="actionELIMINAR"/>
+    <addaction name="actionVER_PANELES"/>
+   </widget>
+   <widget class="QMenu" name="menusalir">
+    <property name="title">
+     <string>salir</string>
+    </property>
+    <addaction name="actioncerrar_programa"/>
+    <addaction name="actioncerrar_sesion"/>
+   </widget>
+   <widget class="QMenu" name="menuRESPALDO">
+    <property name="title">
+     <string>RESPALDO</string>
+    </property>
+    <addaction name="actionrespaldarBD"/>
+   </widget>
+   <widget class="QMenu" name="menuAUDITORIA">
+    <property name="title">
+     <string>AUDITORIA</string>
+    </property>
+    <addaction name="actionVer"/>
+   </widget>
+   <addaction name="menuagregar_panel"/>
+   <addaction name="menuPROYECTO"/>
+   <addaction name="menuPANEL"/>
+   <addaction name="menusalir"/>
+   <addaction name="menuRESPALDO"/>
+   <addaction name="menuAUDITORIA"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAGREGAR">
+   <property name="text">
+    <string>AGREGAR</string>
+   </property>
+  </action>
+  <action name="actionELIMINAR">
+   <property name="text">
+    <string>ELIMINAR</string>
+   </property>
+  </action>
+  <action name="actionVER_PANELES">
+   <property name="text">
+    <string>VER PANELES</string>
+   </property>
+  </action>
+  <action name="actionAGREGAR_2">
+   <property name="text">
+    <string>AGREGAR</string>
+   </property>
+  </action>
+  <action name="actionCANCELAR">
+   <property name="text">
+    <string>CANCELAR</string>
+   </property>
+  </action>
+  <action name="actionVER_PROYECTOS">
+   <property name="text">
+    <string>VER PROYECTOS</string>
+   </property>
+  </action>
+  <action name="actionAGREGAR_3">
+   <property name="text">
+    <string>AGREGAR</string>
+   </property>
+  </action>
+  <action name="actionELIMINAR_2">
+   <property name="text">
+    <string>ELIMINAR</string>
+   </property>
+  </action>
+  <action name="actionVER_CLIENTES">
+   <property name="text">
+    <string>VER CLIENTES</string>
+   </property>
+  </action>
+  <action name="actioncerrar_programa">
+   <property name="text">
+    <string>cerrar programa</string>
+   </property>
+  </action>
+  <action name="actioncerrar_sesion">
+   <property name="text">
+    <string>cerrar sesion</string>
+   </property>
+  </action>
+  <action name="actionrespaldarBD">
+   <property name="text">
+    <string>respaldarBD</string>
+   </property>
+  </action>
+  <action name="actionVer">
+   <property name="text">
+    <string>Ver</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
